@@ -1,0 +1,42 @@
+.category-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-breakdown-row {
+  display: grid;
+  grid-template-columns: 110px 1fr auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-breakdown-label {
+  color: #52514e;
+  font-size: 0.875rem;
+}
+
+.category-breakdown-track {
+  height: 16px;
+  background: #e1e0d9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.category-breakdown-bar {
+  height: 100%;
+  background: #2a78d6;
+  border-radius: 4px;
+}
+
+.category-breakdown-value {
+  font-variant-numeric: tabular-nums;
+  color: #0b0b0b;
+  font-size: 0.875rem;
+  min-width: 90px;
+  text-align: right;
+}
+
+.category-breakdown-empty {
+  color: #52514e;
+}

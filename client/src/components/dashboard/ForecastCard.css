@@ -1,0 +1,31 @@
+.forecast-card {
+  border: 1px solid #e1e0d9;
+  border-radius: 8px;
+  padding: 16px 20px;
+  max-width: 320px;
+}
+
+.forecast-card-label {
+  color: #52514e;
+  font-size: 0.875rem;
+  margin: 0 0 4px;
+}
+
+.forecast-card-value {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.forecast-card-range {
+  color: #898781;
+  font-size: 0.8125rem;
+  margin: 4px 0 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.forecast-card-note {
+  color: #898781;
+  font-size: 0.75rem;
+  margin: 8px 0 0;
+}
